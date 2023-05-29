@@ -1,0 +1,604 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "static/images" # Folder where user uploaded files should go
+public_folder: "images"
+# npx netlify-cms-proxy-server
+local_backend: true
+collections:
+  - name: "English"
+    label: "English"
+    files:
+      - file: "content/english/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {
+              label: "Promotion 2",
+              name: "promo_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Promotion 2",
+              name: "promo_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 1",
+              name: "event_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 2",
+              name: "event_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+      - file: "content/english/promotions.md"
+        label: "Promotions"
+        name: "promotions"
+        fields:
+          - {
+              label: "Promotion 1",
+              name: "promo_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Promotion 2",
+              name: "promo_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 1",
+              name: "voucher_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 2",
+              name: "voucher_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 3",
+              name: "voucher_3",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+
+      - file: "content/english/events.md"
+        label: "Events"
+        name: "events"
+        fields:
+          - {
+              label: "News 1",
+              name: "news_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "News 2",
+              name: "news_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 1",
+              name: "event_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }   
+          - {
+              label: "Event 2",
+              name: "event_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }            
+
+  - name: "Thai"
+    label: "Thai"
+    files:
+      - file: "content/thai/_index.md"
+        label: "กลับหน้าหลัก (Homepage)"
+        name: "home"
+        fields:
+          - {
+              label: "Promotion 2",
+              name: "promo_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Promotion 2",
+              name: "promo_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 1",
+              name: "event_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 2",
+              name: "event_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+      - file: "content/thai/promotions.md"
+        label: "โปรโมชั่น (Promotions)"
+        name: "promotions"
+        fields:
+          - {
+              label: "Promotion 1",
+              name: "promo_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Promotion 2",
+              name: "promo_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 1",
+              name: "voucher_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 2",
+              name: "voucher_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 3",
+              name: "voucher_3",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+
+      - file: "content/thai/events.md"
+        label: "ข่าวสาร (Events)"
+        name: "events"
+        fields:
+          - {
+              label: "News 1",
+              name: "news_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "News 2",
+              name: "news_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 1",
+              name: "event_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }   
+          - {
+              label: "Event 2",
+              name: "event_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }              
+
+  - name: "Chinese"
+    label: "Chinese"
+    files:
+      - file: "content/chinese/_index.md"
+        label: "主页 (Homepage)"
+        name: "home"
+        fields:
+          - {
+              label: "Promotion 2",
+              name: "promo_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Promotion 2",
+              name: "promo_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 1",
+              name: "event_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 2",
+              name: "event_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+      - file: "content/chinese/promotions.md"
+        label: "促销活动 (Promotions)"
+        name: "promotions"
+        fields:
+          - {
+              label: "Promotion 1",
+              name: "promo_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Promotion 2",
+              name: "promo_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 1",
+              name: "voucher_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 2",
+              name: "voucher_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Voucher 3",
+              name: "voucher_3",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "detail", widget: "text" },
+                  { label: "Price", name: "price", widget: "string" },
+                  { label: "Button Label", name: "cta_title", widget: "string" },
+                  { label: "Button Link", name: "cta_link", widget: "string" },
+                ],
+            }
+
+      - file: "content/chinese/events.md"
+        label: "活动 (Events)"
+        name: "events"
+        fields:
+          - {
+              label: "News 1",
+              name: "news_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "News 2",
+              name: "news_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }
+          - {
+              label: "Event 1",
+              name: "event_1",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }   
+          - {
+              label: "Event 2",
+              name: "event_2",
+              widget: "object",
+              fields:
+                [
+                  { label: "Enable", name: "enable", widget: "boolean", default: true },
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Image", name: "img", widget: "image" },
+                  { label: "Date", name: "date", widget: "string" },
+                  { label: "Button Label", name: "btn_title", widget: "string" },
+                  { label: "Button Link", name: "btn_link", widget: "string" },
+                ],
+            }              
