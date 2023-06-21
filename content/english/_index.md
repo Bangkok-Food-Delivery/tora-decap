@@ -11,10 +11,10 @@ hero_section:
 promo_1:
   enable: true
   title: Seafood Festival 2023
-  img: images/seafood-festival.jpg
+  img: images/4890665795521938284.e66e63ea054c4dec8482fd6aaa1596cc.23060611.jpg
   date: April 28, 2023
   btn_title: Learn More
-  btn_link: "#"
+  btn_link: https://tora.foodie-delivery.com/#/home
 promo_button:
   enable: true
   btn_title: All Promos
