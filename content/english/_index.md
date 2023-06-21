@@ -14,7 +14,7 @@ promo_1:
   img: images/4890665795521938284.e66e63ea054c4dec8482fd6aaa1596cc.23060611.jpg
   date: April 28, 2023
   btn_title: Learn More
-  btn_link: https://tora.foodie-delivery.com/#/home
+  btn_link: https://tora.foodie-delivery.com/
 promo_button:
   enable: true
   btn_title: All Promos
