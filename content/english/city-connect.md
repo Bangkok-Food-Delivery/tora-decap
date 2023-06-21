@@ -18,7 +18,7 @@ hero_section:
 
 about_section:
   enable: true
-  title: YAKINIKU BUFFET BANG WA
+  title: YAKINIKU BUFFET IN BANG WA
   description: Welcome to TORA YAKINIKU x CAFE's first branch, located at The City Connect Kanlapaphruek Project. Our modern buffet-style yakiniku restaurant has been open since 2015 and is situated in Room No. 55/88-89. With a total of 14 tables, our restaurant can accommodate up to 60 guests at a time. Getting here is easy, with both the BTS Wutthakat and BTS Bang Wa stations nearby, and public transport options available that can take you here in just 10 minutes.
 
   gallery_items:
