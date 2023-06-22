@@ -22,20 +22,7 @@ news_2:
   btn_title: Learn More
   btn_link: https://www.facebook.com/1002914456427732/posts/pfbid02PqzwEdSvBA4m31FEQtWy3qDNddp4m3QQASDXkhkN6AF1M6eT1JJLMjcFS5afEDbSl/?mibextid=cr9u03
 layout: events
-events_1:
-  enable: true
-  title: Event Title
-  img: /img/homepage/Event_1.png
-  date: April 28, 2023
-  btn_title: Learn More
-  btn_link: "#"
-events_2:
-  enable: true
-  title: Event Title
-  img: /img/homepage/Event_1.png
-  date: April 28, 2024
-  btn_title: Learn More
-  btn_link: "#"
+
 event_1:
   enable: true
   title: Tora x Midnight a cocoa
