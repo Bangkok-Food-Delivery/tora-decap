@@ -21,11 +21,11 @@ promo_button:
   btn_link: /promotions
 promo_2:
   enable: true
-  title: Uni Festival
-  img: /img/homepage/Promotion_1.png
-  date: April 28, 2023
+  title: KTC Credit Card
+  img: images/promotion-ktc.jpg
+  date: Mar 1 - Aug 31, 2023
   btn_title: Learn More
-  btn_link: "#"
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid01BYjGYMfkVQ9KGfuMKzvs3EZFhiTXHan1aBWgpjZDWRKJ3YwBQ8TSuf5rneue3Jzl/?mibextid=cr9u03
 menu_section:
   enable: true
   heading: TORA YAKINIKU MENU
@@ -48,11 +48,11 @@ menu_section:
 layout: home
 event_1:
   enable: true
-  title: Sakura Season
-  img: /img/homepage/Event_1.png
-  date: April 28, 2023
+  title: Krungsri Credit Card
+  img: images/promotion-krungsri.jpg
+  date: Apr 1, 2023 - Mar 31, 2024
   btn_title: Learn More
-  btn_link: "#"
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
 event_2:
   enable: true
   title: Sakura Season
