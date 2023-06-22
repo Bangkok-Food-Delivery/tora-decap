@@ -49,7 +49,7 @@ layout: home
 event_1:
   enable: true
   title: Royal Buffet
-  img: images/tora-may4388.jpg
+  img: images/event-royal.jpg
   date: Jun 16 - Sep 30, 2023
   btn_title: Learn More
   btn_link: https://www.facebook.com/100064871554923/posts/pfbid02EeckBZgYBKTrBrgYqSMLn1tS9C6fuDk72Mur4rEfofQKiHKbRbVTNDFE3GVEHeCnl/?mibextid=cr9u03
