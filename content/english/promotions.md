@@ -1,11 +1,14 @@
 ---
 voucher_1:
   enable: true
-  title: Elite Buffet - Voucher
-  detail: |-
-    The elegant buffet & craft dessert.
+  title: Elite Buffet
+  detail: >-
+    E-voucher
+
     A4 Wagyu, Foie Gras, Hotate Karasumi, Akami, Matcha Ceremony etc.
-    The perfect gift for a friend or loved one. 
+
+
+    The elegant buffet & craft dessert. The perfect gift for a friend or loved one. 
   ribbon:
     enable: true
     title: Popular
@@ -37,11 +40,14 @@ promo_2:
   btn_link: https://www.facebook.com/1002914456427732/posts/pfbid01BYjGYMfkVQ9KGfuMKzvs3EZFhiTXHan1aBWgpjZDWRKJ3YwBQ8TSuf5rneue3Jzl/?mibextid=cr9u03
 voucher_2:
   enable: true
-  title: Grand Buffet - Voucher
-  detail: |-
-    The elegant buffet & craft dessert.
+  title: Grand Buffet
+  detail: >-
+    E-voucher
+
     Tora Wagyu Set, Kanimiso, Wagyu Hoba, Sashimi etc.
-    The perfect gift for a friend or loved one. 
+
+
+    The elegant buffet & craft dessert. The perfect gift for a friend or loved one. 
   ribbon:
     enable: true
     title: Best Value
@@ -51,11 +57,14 @@ voucher_2:
   cta_link: https://shop.line.me/@torayakinikucafe/product/1003352691
 voucher_3:
   enable: true
-  title: Premium Buffet - Voucher
-  detail: |-
-    The elegant buffet & craft dessert.
+  title: Premium Buffet
+  detail: >-
+    E-voucher
+
     Wagyu Karubi, Kurobuta, Seafood, Salmon, Honey Toast, Kakigori etc.
-    The perfect gift for a friend or loved one. 
+
+
+    The elegant buffet & craft dessert.The perfect gift for a friend or loved one. 
   ribbon:
     enable: true
     title: Latest
