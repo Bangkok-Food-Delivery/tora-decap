@@ -17,7 +17,7 @@ promo_1:
   btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
 promo_button:
   enable: true
-  btn_title: All Promos
+  btn_title: All Promotions
   btn_link: /promotions
 promo_2:
   enable: true
