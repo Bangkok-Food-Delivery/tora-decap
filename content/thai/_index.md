@@ -17,7 +17,7 @@ promo_1:
   btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
 promo_button:
   enable: true
-  btn_title: All Promos
+  btn_title: โปรโมชั่นทั้งหมด
   btn_link: /promotions
 promo_2:
   enable: true
@@ -81,7 +81,7 @@ about_section:
   img: /img/homepage/cover.jpg
 event_button:
   enable: true
-  btn_title: All Events
+  btn_title: อีเว้นท์ทั้งหมด
   btn_link: /events
 title: ยากินิกุบุฟเฟ่ต์สไตล์โมเดิร์น | TORA YAKINIKU x CAFE
 events:
