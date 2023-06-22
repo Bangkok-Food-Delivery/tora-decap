@@ -22,23 +22,34 @@ news_2:
   btn_title: Learn More
   btn_link: https://www.facebook.com/1002914456427732/posts/pfbid02PqzwEdSvBA4m31FEQtWy3qDNddp4m3QQASDXkhkN6AF1M6eT1JJLMjcFS5afEDbSl/?mibextid=cr9u03
 layout: events
-
 events_1:
   enable: true
-  title: Tora x Midnight a cocoa
-  img: images/line_album_mnaccxtora_230123_64.jpg
-  date: Feb 1-28, 2023
+  title: Event Title
+  img: /img/homepage/Event_1.png
+  date: April 28, 2023
   btn_title: Learn More
   btn_link: "#"
 events_2:
   enable: true
-  title: Cherry Blossom Festival
-  img: images/img_8224.jpg
-  date: Apr 1-30, 2023
+  title: Event Title
+  img: /img/homepage/Event_1.png
+  date: April 28, 2024
   btn_title: Learn More
   btn_link: "#"
-
-
+event_1:
+  enable: true
+  title: Tora x Midnight A Cocoa
+  date: Feb 1-28, 2023
+  btn_title: Learn more
+  btn_link: "#"
+  img: images/line_album_mnaccxtora_230123_64.jpg
+event_2:
+  title: Cherry Blossom Festival
+  date: Apr 1-30, 2023
+  btn_title: Learn more
+  btn_link: "#"
+  enable: true
+  img: images/img_8224.jpg
 news:
   enable: true
   title: LATEST NEWS
