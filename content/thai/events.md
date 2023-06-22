@@ -10,14 +10,14 @@ hero_section:
 news_1:
   enable: true
   title: News Title
-  img: images/promotion-krungsri.jpg
+  img: images/event-royal.jpg
   date: April 28, 2023
   btn_title: ข้อมูลเพิ่มเติม
   btn_link: "#"
 news_2:
   enable: true
   title: News Title
-  img: images/promotion-ktc.jpg
+  img: images/img_7252.jpg
   date: April 28, 2024
   btn_title: ข้อมูลเพิ่มเติม
   btn_link: "#"
