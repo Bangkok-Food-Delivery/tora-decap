@@ -17,7 +17,7 @@ promo_1:
   btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
 promo_button:
   enable: true
-  btn_title: All Promos
+  btn_title: 促销活动
   btn_link: /promotions
 promo_2:
   enable: true
@@ -76,7 +76,7 @@ about_section:
   img: /img/homepage/cover.jpg
 event_button:
   enable: true
-  btn_title: All Events
+  btn_title: 活动
   btn_link: /events
 title: 曼谷高级烤肉自助餐 | Tora Yakiniku x Cafe
 events:
