@@ -10,7 +10,7 @@ voucher_1:
   currency: ฿
   price: 500 - 5,000
   cta_title: ซื้อตอนนี้
-  cta_link: "#"
+  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352716?utm_source=LS_Share&utm_medium=Storefront-Productend&utm_keyword=2389f9aa59eb673d28f4b6cc5d9d17d91687407643231
 hero_section:
   enable: true
   bg_image: /assets/img/header/our-story.jpg
@@ -44,7 +44,7 @@ voucher_2:
   currency: ฿
   price: 1,699
   cta_title: ซื้อตอนนี้
-  cta_link: "#"
+  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352691
 voucher_3:
   enable: true
   title: Grand Buffet E-voucher
@@ -56,7 +56,7 @@ voucher_3:
   currency: ฿
   price: 1,149
   cta_title: ซื้อตอนนี้
-  cta_link: "#"
+  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352673?utm_source=LS_Share&utm_medium=Storefront-Productend&utm_keyword=2389f9aa59eb673d28f4b6cc5d9d17d91687407769175
 vouchers:
   enable: true
   bg_img: /img/homepage/cover.jpg
