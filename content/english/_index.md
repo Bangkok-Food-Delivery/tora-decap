@@ -10,11 +10,11 @@ hero_section:
     btn_link: "#"
 promo_1:
   enable: true
-  title: Seafood Festival 2023
-  img: images/4890665795521938284.e66e63ea054c4dec8482fd6aaa1596cc.23060611.jpg
-  date: April 28, 2023
+  title: Krungsri Credit Card
+  img: images/promotion-krungsri.jpg
+  date: Apr 1, 2023 - Mar 31, 2024
   btn_title: Learn More
-  btn_link: https://tora.foodie-delivery.com/
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
 promo_button:
   enable: true
   btn_title: All Promos
