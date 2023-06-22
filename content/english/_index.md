@@ -48,18 +48,18 @@ menu_section:
 layout: home
 event_1:
   enable: true
-  title: Krungsri Credit Card
-  img: images/promotion-krungsri.jpg
-  date: Apr 1, 2023 - Mar 31, 2024
+  title: Royal Buffet
+  img: images/tora-may4388.jpg
+  date: Jun 16 - Sep 30, 2023
   btn_title: Learn More
-  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
+  btn_link: https://www.facebook.com/100064871554923/posts/pfbid02EeckBZgYBKTrBrgYqSMLn1tS9C6fuDk72Mur4rEfofQKiHKbRbVTNDFE3GVEHeCnl/?mibextid=cr9u03
 event_2:
   enable: true
-  title: Sakura Season
-  img: /img/homepage/Event_1.png
-  date: April 28, 2023
+  title: Uni Festival
+  img: images/img_7252.jpg
+  date: Mar 1 - 31, 2023
   btn_title: Learn More
-  btn_link: "#"
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid02PqzwEdSvBA4m31FEQtWy3qDNddp4m3QQASDXkhkN6AF1M6eT1JJLMjcFS5afEDbSl/?mibextid=cr9u03
 promotions:
   enable: true
   title: PROMOTIONS
