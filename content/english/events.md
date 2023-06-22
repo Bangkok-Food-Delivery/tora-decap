@@ -38,7 +38,7 @@ events_2:
   btn_link: "#"
 event_1:
   enable: true
-  title: xx
+  title: Tora x Midnight a cocoa
   date: Feb 1-28, 2023
   btn_title: Learn more
   btn_link: "#"
