@@ -2,13 +2,10 @@
 voucher_1:
   enable: true
   title: Elite Buffet
-  detail: >-
-    E-voucher
-
+  detail: |-
     A4 Wagyu, Foie Gras, Hotate Karasumi, Akami, Matcha Ceremony etc.
 
-
-    The elegant buffet & craft dessert. The perfect gift for a friend or loved one. 
+    The elegant buffet & craft dessert.
   ribbon:
     enable: true
     title: Popular
@@ -41,13 +38,10 @@ promo_2:
 voucher_2:
   enable: true
   title: Grand Buffet
-  detail: >-
-    E-voucher
-
+  detail: |-
     Tora Wagyu Set, Kanimiso, Wagyu Hoba, Sashimi etc.
 
-
-    The elegant buffet & craft dessert. The perfect gift for a friend or loved one. 
+    The elegant buffet & craft dessert. 
   ribbon:
     enable: true
     title: Best Value
@@ -58,13 +52,10 @@ voucher_2:
 voucher_3:
   enable: true
   title: Premium Buffet
-  detail: >-
-    E-voucher
-
+  detail: |-
     Wagyu Karubi, Kurobuta, Seafood, Salmon, Honey Toast, Kakigori etc.
 
-
-    The elegant buffet & craft dessert.The perfect gift for a friend or loved one. 
+    The elegant buffet & craft dessert.
   ribbon:
     enable: true
     title: Latest
