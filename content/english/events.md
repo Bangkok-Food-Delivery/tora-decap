@@ -39,15 +39,15 @@ events_2:
 event_1:
   enable: true
   title: xx
-  date: xx
-  btn_title: xx
-  btn_link: xx
+  date: Feb 1-28, 2023
+  btn_title: Learn more
+  btn_link: "#"
   img: images/line_album_mnaccxtora_230123_64.jpg
 event_2:
-  title: xx
-  date: xx
-  btn_title: xx
-  btn_link: xx
+  title: Cherry Blossom Festival
+  date: Apr 1-30, 2023
+  btn_title: Learn more
+  btn_link: "#"
   enable: true
   img: images/img_8224.jpg
 news:
