@@ -1,16 +1,15 @@
 ---
 voucher_1:
   enable: true
-  title: Tora Yakiniku Gift Card
-  detail: ของขวัญที่สมบูรณ์แบบสำหรับเพื่อนหรือคนที่คุณรัก
-    เลือกจำนวนเงินและเปิดโอกาสให้พวกเขาเพลิดเพลินตามที่พวกเขาต้องการ
+  title: อีลีท บุฟเฟ่ต์ 
+  detail: บุฟเฟ่ต์ที่พิถีพิถันที่สุด วัตถุดิบระดับสุดยอดให้คุณได้อิ่มอร่อยแบบไม่อั้นกับวากิวญี่ปุ่น A4, ฟัวกราส์, โฮตาเตะคาราสุมิ, อากามิ, มัทฉะเซเรโมนี และอื่นๆอีกมากมาย
   ribbon:
     enable: true
     title: Popular
   currency: ฿
-  price: 500 - 5,000
+  price: 1799++
   cta_title: ซื้อตอนนี้
-  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352716?utm_source=LS_Share&utm_medium=Storefront-Productend&utm_keyword=2389f9aa59eb673d28f4b6cc5d9d17d91687407643231
+  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352716
 hero_section:
   enable: true
   bg_image: /assets/img/header/our-story.jpg
@@ -21,42 +20,40 @@ hero_section:
     title: Button Title
 promo_1:
   enable: true
-  title: กรุงศรี เครดิตการ์ด
+  title: Uni Festival
   img: images/promotion-krungsri.jpg
-  date: 1 เม.ย. 66 - 31 มี.ค. 67
+  date: April 28, 2023
   btn_title: ข้อมูลเพิ่มเติม
-  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
+  btn_link: "#"
 promo_2:
   enable: true
-  title: เคทีซี เครดิตการ์ด
+  title: Uni Festival
   img: images/promotion-ktc.jpg
-  date: 1 มี.ค. - 31 ส.ค. 66
+  date: April 28, 2023
   btn_title: ข้อมูลเพิ่มเติม
-  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
+  btn_link: "#"
 voucher_2:
   enable: true
-  title: Elite Buffet E-voucher
-  detail: Wagyu DryAged, Wagyu MS8/9, Wagyu FullBlood, Slipper Lobster, Kanimiso
-    (และเมนูบุฟเฟ่ต์อื่นๆ อีกกว่า 125 รายการ)
+  title: แกรนด์ บุฟเฟ่ต์
+  detail: บุฟเฟ่ต์ที่คุ้มที่สุดของโทระ อิ่มอร่อยได้ไม่อั้นกับโทระวากิวเซ็ต, คานิมิโซะ,​วากิวย่างใบโฮบะ, ซาชิมิและของหวานสุดคราฟท์
   ribbon:
     enable: true
     title: Best Value
   currency: ฿
-  price: 1,699
+  price: 1399++
   cta_title: ซื้อตอนนี้
   cta_link: https://shop.line.me/@torayakinikucafe/product/1003352691
 voucher_3:
   enable: true
-  title: Grand Buffet E-voucher
-  detail: Wagyu DryAged, Wagyu MS8/9, Wagyu FullBlood, Slipper Lobster, Kanimiso
-    (และเมนูบุฟเฟ่ต์อื่นๆ อีกกว่า 125 รายการ)
+  title: พรีเมียม บุฟเฟ่ต์
+  detail: เพลิดเพลินกับอาหารที่หลากหลาย อิ่มอร่อยไม่อั้นกับวากิวคารุบิ, หมูคุโรบูตะ,กุ้งแม้น้ำ, ฮันนี่โทสต์, คากิโกริ และอื่นๆอีกมากมาย
   ribbon:
     enable: true
     title: Latest
   currency: ฿
-  price: 1,149
+  price: 1099++
   cta_title: ซื้อตอนนี้
-  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352673?utm_source=LS_Share&utm_medium=Storefront-Productend&utm_keyword=2389f9aa59eb673d28f4b6cc5d9d17d91687407769175
+  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352673
 vouchers:
   enable: true
   bg_img: /img/homepage/cover.jpg
