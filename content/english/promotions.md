@@ -2,17 +2,14 @@
 voucher_1:
   enable: true
   title: Elite Buffet
-  detail: |-
-    A4 Wagyu, Foie Gras, Hotate Karasumi, Akami, Matcha Ceremony etc.
-
-    The elegant buffet & craft dessert.
+  detail: The finest buffet of all time. All you can eat, A4 Wagyu, Foie Gras, Hotate Karasumi, Akami, Matcha Ceremony etc
   ribbon:
     enable: true
     title: Popular
   currency: ฿
   price: 1799++
   cta_title: Buy now
-  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352716?utm_source=LS_Share&utm_medium=Storefront-Productend&utm_keyword=2389f9aa59eb673d28f4b6cc5d9d17d91687407643231
+  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352716
 hero_section:
   enable: true
   bg_image: /assets/img/header/our-story.jpg
@@ -38,10 +35,7 @@ promo_2:
 voucher_2:
   enable: true
   title: Grand Buffet
-  detail: |-
-    Tora Wagyu Set, Kanimiso, Wagyu Hoba, Sashimi etc.
-
-    The elegant buffet & craft dessert. 
+  detail: The best valued buffet of Tora! All you can eat, Tora wagyu set, Kanimiso, Wagyu hoba, Sashimi, Craft desserts and more.
   ribbon:
     enable: true
     title: Best Value
@@ -52,17 +46,14 @@ voucher_2:
 voucher_3:
   enable: true
   title: Premium Buffet
-  detail: |-
-    Wagyu Karubi, Kurobuta, Seafood, Salmon, Honey Toast, Kakigori etc.
-
-    The elegant buffet & craft dessert.
+  detail: Enjoy variety of food. All you can eat, Wagyu Karubi, Kurobuta, Fresh water prawn, Honey toast, Kakigori etc.
   ribbon:
     enable: true
     title: Latest
   currency: ฿
   price: 1099++
   cta_title: buy now
-  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352673?utm_source=LS_Share&utm_medium=Storefront-Productend&utm_keyword=2389f9aa59eb673d28f4b6cc5d9d17d91687407769175
+  cta_link: https://shop.line.me/@torayakinikucafe/product/1003352673
 vouchers:
   enable: true
   bg_img: /img/homepage/cover.jpg
