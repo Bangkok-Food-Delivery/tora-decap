@@ -20,18 +20,18 @@ hero_section:
     title: Button Title
 promo_1:
   enable: true
-  title: Uni Festival
+  title: กรุงศรี เครดิตการ์ด
   img: images/promotion-krungsri.jpg
-  date: April 28, 2023
+  date: 1 เม.ย. 66 - 31 มี.ค. 67
   btn_title: ข้อมูลเพิ่มเติม
-  btn_link: "#"
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
 promo_2:
   enable: true
-  title: Uni Festival
+  title: เคทีซี เครดิตการ์ด
   img: images/promotion-ktc.jpg
-  date: April 28, 2023
+  date: 1 มี.ค. - 31 ส.ค. 66
   btn_title: ข้อมูลเพิ่มเติม
-  btn_link: "#"
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid01BYjGYMfkVQ9KGfuMKzvs3EZFhiTXHan1aBWgpjZDWRKJ3YwBQ8TSuf5rneue3Jzl/?mibextid=cr9u03
 voucher_2:
   enable: true
   title: แกรนด์ บุฟเฟ่ต์
