@@ -20,19 +20,19 @@ promotions:
 
 promo_1:
   enable: true
-  title: Uni Festival
-  img: "/img/homepage/Promotion_1.png"
-  date: April 28, 2023
+  title: Krungsri Credit Card
+  img: images/promotion-krungsri.jpg
+  date: April 1, 2023 - Mar 31, 2024
   btn_title: Learn More
-  btn_link: "#"
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid0tcMmWVpyj2gb2qdzBqgYkMa87LWXE5HBUyooMaNYrPAzmdkzumuYeMGnFBWAPoLl/?mibextid=cr9u03
 
 promo_2:
   enable: true
-  title: Uni Festival
-  img: "/img/homepage/Promotion_1.png"
-  date: April 28, 2023
+  title: KTC Credit Card
+  img: images/promotion-ktc.jpg
+  date: Mar 1- Aug 31, 2023
   btn_title: Learn More
-  btn_link: "#"
+  btn_link: https://www.facebook.com/1002914456427732/posts/pfbid01BYjGYMfkVQ9KGfuMKzvs3EZFhiTXHan1aBWgpjZDWRKJ3YwBQ8TSuf5rneue3Jzl/?mibextid=cr9u03
 
 vouchers:
   enable: true
